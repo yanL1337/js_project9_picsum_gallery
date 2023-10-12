@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  width: 30vw;
+}
+
+.imageGallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3vw;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.item {
+  text-align: center;
+}
+
+.item button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  width: fit-content;
+  font-size: 25px;
+}
+
+.go {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 200px;
+  /* display: inline-block; */
+}
+
+.go button {
+  background-color: aqua;
+  width: fit-content;
+  border: none;
+  border-radius: 20px;
+  font-size: 25px;
+}
